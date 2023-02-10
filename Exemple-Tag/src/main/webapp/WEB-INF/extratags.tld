@@ -32,6 +32,27 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
     </tag>
+    
+    <tag>
+    	<name>Header</name>
+    	<tagclass>com.jee.controllers.tag.HeaderTag</tagclass>
+    	<bodycontent>JSP</bodycontent>
+    	
+    	<attribute>
+    		<name>name</name>
+    		<required>false</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    	
+    	<attribute>
+    		<name>profil</name>
+    		<required>false</required>
+    		<rtexprvalue>true</rtexprvalue>
+    	</attribute>
+    </tag>
         
         
 </taglib>
+
+
+
